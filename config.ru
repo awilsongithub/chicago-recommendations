@@ -7,5 +7,5 @@ require './controllers/application'
 require './controllers/recommendations'
 # require our model for our table "places" (place.rb)
 require './models/place'
-# map root to rec ctrllr
+# map root to rec ctrllr, (instantiates ctrllr)
 map ('/') { run RecommendationsController }
